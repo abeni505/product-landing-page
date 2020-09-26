@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: gray ;
+  font-family: sans-serif;
+}
+div.header-img{
+  width; 100%;
+  background-color: #e6e5e6;
+  overflow:hidden;
+  position: relative;
+}
+#header-img{
+  filter:invert(10%);
+  width: 350px;
+  height: 200px;
+  display: inline-block;
+  margin: auto;
+}
+div.nav-bar{
+  overflow: hidden;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #e6e5e6;
+  width: 90%;
+  height: 20px;
+  top: 0;
+  right: 0;
+  margin: auto;
+
+}
+.nav-link{
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  padding: 30px 30px;
+  transition: background 0.5s;
+
+}
+.nav-link:hover{
+  background-color: black;
+  color: white;
+}
+.titel{
+  margin-top: 100px;
+  text-align: center;
+}
+@media sceen and (max-width:600px){
+  #Pricing{
+    flex-direction: column;
+  }
+}
+
+#email{
+  display: flex;
+  margin: auto;
+  width: 500px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 8px;
+}
+#submit{
+  display: block;
+  margin: auto;
+  background-color: gold;
+  width: 20%;
+  border-radius: 10px;
+}
+#submit:hover{
+  background-color: black;
+  color: white;
+
+}
+#video{
+  display: flex;
+  max-width: 560px;
+  width: 100%;
+  height: 315px;
+  justify-content: center;
+}
+#how-it-works{
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.Features{
+   color: white;
+   margin: auto;
+   margin-top: 100px;
+   width: 500px;
+
+}
+#Pricing{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.product{
+  background-color: white;
+  margin: 10px;
+
+}
+.product-title{
+  padding: 10px;
+  background-color: brown;
+  text-align: center;
+  color: white;
+}
+#product-submit{
+  background-color: gold;
+  border: none;
+  width: 100%;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 3px;
+}
+#product-submit:hover{
+  color: white;
+  background-color: black;
+}
+#title-text{
+  color: black;
+  background-color: white;
+
+}
+.text{
+  width: 400px;
+}
+#how{
+  margin-top: 20px;
+  text-align: center;
+}
+#price{
+  text-align: center;
+}
